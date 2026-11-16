@@ -13,6 +13,9 @@ pyarrow>=14.0.0
 # PDF Generation & Inspection (Step 8)
 pypdf>=3.0.0
 
+# Interactive Web Application & Deployment
+streamlit>=1.30.0
+
 # Jupyter Environment
 jupyter>=1.0.0
 notebook>=7.0.0

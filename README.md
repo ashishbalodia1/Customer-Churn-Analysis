@@ -38,6 +38,7 @@ The goal of this project is to answer practical business questions that a store 
 ## Project Structure
 
 ```text
+├── app.py                           # Interactive Streamlit Web Dashboard application
 ├── ecommerce_sales_analysis.ipynb   # Main Jupyter notebook containing all 8 analysis steps
 ├── ecommerce_executive_brief.pdf     # 1-page business brief PDF for management
 ├── ecommerce_executive_brief.png     # Preview image of the 1-page brief
@@ -76,8 +77,12 @@ The goal of this project is to answer practical business questions that a store 
    pip install -r requirements.txt
    ```
 
-3. Launch Jupyter Notebook:
+3. Launch the Interactive Streamlit Web Dashboard:
+   ```bash
+   streamlit run app.py
+   ```
+
+4. Or launch the Jupyter Notebook:
    ```bash
    jupyter notebook ecommerce_sales_analysis.ipynb
    ```
-4. Run all cells from top to bottom.
